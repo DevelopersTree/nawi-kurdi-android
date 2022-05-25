@@ -21,3 +21,5 @@ inline fun toGender(gender: String): Gender {
         else -> Gender.other
     }
 }
+
+internal fun List<NameRemoteDTO>.toEntity() = map { it.toEntity() }

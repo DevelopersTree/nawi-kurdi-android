@@ -1,4 +1,9 @@
 ext {
+
+    //region compose
+     ComposeVersion = '1.0.1'
+    //endregion compose
+
     //region sdk
     MinSdkVersion = 24
     TargetSdkVersion = 32
@@ -6,9 +11,9 @@ ext {
     //endregion sdk
 
     //region classpath
-    kotlinVersion = '1.5.30'
+    kotlinVersion = '1.5.21'
     hiltVersion = '2.40.5'
-    kotlinGradlePluginVersion = '1.6.10'
+    kotlinGradlePluginVersion = '1.5.21'
     gradleVersion = '7.1.2'
     //endregion classpath
 
@@ -72,7 +77,7 @@ ext {
     kotlinxCoroutinesCoreVersion = '1.6.0'
     moshiVersion = '1.13.0'
     converterMoshiVersion = '2.9.0'
-    multidexVersion = '1.0.3'
+    multidexVersion = '2.0.1'
     //endregion common tools
 
 }
