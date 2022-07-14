@@ -28,6 +28,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+
+    buildTypes.each {
+        it.buildConfigField 'String', 'NAME_API_BASEURL', '"' + project.properties['name_api_base_url'] + '"'
+        it.buildConfigField "String", "NAME_API_KEY", '"' + project.properties["name_api_key"] + '"'
+    }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/remote" />
             <option value="$PROJECT_DIR$/repository" />
             <option value="$PROJECT_DIR$/useCase" />
+            <option value="$PROJECT_DIR$/viewModels" />
           </set>
         </option>
       </GradleProjectSettings>

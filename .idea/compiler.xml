@@ -6,6 +6,7 @@
       <module name="Nawi_Kurdi.db" target="11" />
       <module name="Nawi_Kurdi.remote" target="11" />
       <module name="Nawi_Kurdi.repository" target="11" />
+      <module name="Nawi_Kurdi.viewModels" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
